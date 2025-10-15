@@ -10,7 +10,7 @@ Une calculatrice simple en **C# WPF** pour Windows, permettant de faire des calc
 
 ### Fonctionnalités
 
-- Addition, soustraction, multiplication, division. Attention, ne gere que les entiers (donc x/y=0 si x < y )
+- Addition, soustraction, multiplication, division. Attention, ne gere que les entiers (donc $x/y=0$ si $x < y$ )
 - Gestion des parenthèses `(` et `)`.
 - Gestion des priorités de calcul en utilisant des bases de compilation (analyseur syntaxique)
 - Effacement du dernier caractère ou de toute l'expression.
@@ -53,11 +53,10 @@ Calculator/
 
 ### Utilisation
 
-1. Ouvrir le projet dans **Rider** ou **Visual Studio**.
-2. Construire le projet.
-3. Lancer l'application.
-4. Utiliser les boutons ou le clavier pour saisir des expressions.
-5. Appuyer sur `=` ou `Enter` pour obtenir le résultat.
+1. Decompresser `PublicCalculator` pour utilisateur windows `PublicCalculator_LinuxCompat` sinon
+2. Lancer l'application `Calculator.exe` ou `Calculator` qui s'y trouve.
+3. Utiliser les boutons ou le clavier pour saisir des expressions.
+4. Appuyer sur `=` ou `Enter` pour obtenir le résultat.
 
 ---
 
@@ -74,7 +73,7 @@ A simple **C# WPF** calculator for Windows, allowing you to perform basic arithm
 
 ### Features
 
-- Addition, subtraction, multiplication, division. Be careful, only integers are considered (then x/y=0 if x < y)
+- Addition, subtraction, multiplication, division. Be careful, only integers are considered (then $x/y=0$ if $x < y$)
 - Support for parentheses `(` and `)`.
 - Calculation order handling using a simple parser (syntax analyzer).
 - Delete the last character or clear the entire expression.
@@ -119,8 +118,8 @@ Calculator/
 
 ### Usage
 
-1. Unzip the `PublicCalculator` folder.
-2. Run the `Calculator.exe` application inside.
+1. Unzip the `PublicCalculator` folder or `PublicCalculator_LinuxCompat` if you don't use Windows.
+2. Run the `Calculator.exe` or `Calculator` application inside.
 3. Use the buttons or keyboard to enter expressions.
 4. Press `=` or `Enter` to calculate the result.
 
