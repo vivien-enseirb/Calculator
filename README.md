@@ -1,6 +1,6 @@
 ﻿# Calculator
 
-[If you prefere the english version](#english-section)
+[If you prefer the english version](#english-section)
 
 ## Section française
 
