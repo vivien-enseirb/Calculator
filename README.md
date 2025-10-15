@@ -60,6 +60,10 @@ Calculator/
 
 ---
 
+### Compatibilité
+
+- Pour les utilisateur Windows, il n'y a aucun problème de comptabilite.
+- Pour les utilisateur Linux, il est nécessaire d'avoir .NET. Afin de l'installer, vous pouvez vous referer a [cette documentation](https://learn.microsoft.com/en-us/dotnet/core/install/linux)
 
 ### Licence
 
@@ -124,6 +128,12 @@ Calculator/
 4. Press `=` or `Enter` to calculate the result.
 
 ---
+
+### Compatibility
+
+- For Windows users, there are no compatibility issues.
+
+- For Linux users, it is necessary to have .NET installed. To install it, you can refer to [this documentation](https://learn.microsoft.com/en-us/dotnet/core/install/linux)
 
 ### License
 
