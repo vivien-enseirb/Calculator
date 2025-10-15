@@ -16,10 +16,9 @@ public class Evaluateur
                 Evaluate(Right)),
             BinaryNode(var Left, TokenType.Minus, Node Right) => Services.MathUtils.MathUtils.Substract(Evaluate(Left),
                 Evaluate(Right)),
-            BinaryNode(var Left, TokenType.Multiply, Node Right) => Services.MathUtils.MathUtils.Multiply(
-                Evaluate(Right), Evaluate(Left)),
-            BinaryNode(var Left, TokenType.Divide, Node Right) => Services.MathUtils.MathUtils.Divide(Evaluate(Right),
-                Evaluate(Left)),
+            BinaryNode(var Left, TokenType.Multiply, Node Right) => Services.MathUtils.MathUtils.Multiply(Evaluate(Left), Evaluate(Right)),
+            BinaryNode(var Left, TokenType.Divide, Node Right) => Services.MathUtils.MathUtils.Divide(Evaluate(Left), Evaluate(Right)),
+
             _ => throw new InvalidOperationException($"Noeud non supporté : {node}")
         };
     

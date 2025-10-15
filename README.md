@@ -10,7 +10,7 @@ Une calculatrice simple en **C# WPF** pour Windows, permettant de faire des calc
 
 ### Fonctionnalités
 
-- Addition, soustraction, multiplication, division.
+- Addition, soustraction, multiplication, division. Attention, ne gere que les entiers (donc x/y=0 si x < y )
 - Gestion des parenthèses `(` et `)`.
 - Gestion des priorités de calcul en utilisant des bases de compilation (analyseur syntaxique)
 - Effacement du dernier caractère ou de toute l'expression.
@@ -74,7 +74,7 @@ A simple **C# WPF** calculator for Windows, allowing you to perform basic arithm
 
 ### Features
 
-- Addition, subtraction, multiplication, division.
+- Addition, subtraction, multiplication, division. Be careful, only integers are considered (then x/y=0 if x < y)
 - Support for parentheses `(` and `)`.
 - Calculation order handling using a simple parser (syntax analyzer).
 - Delete the last character or clear the entire expression.
